@@ -20,7 +20,7 @@ var skipReq = 0;
 var skippers = [];
 var now_playing = [];
 
-const prefix = "N";
+const prefix = "n";
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
